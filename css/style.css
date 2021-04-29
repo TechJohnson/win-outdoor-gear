@@ -18,6 +18,12 @@ body, p, a, h1, h2, h3, h4 {
   background: #2A8EC9;
 }
 
+.box-shadow {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  border: none !important;
+}
+
 nav {
   padding: 20px 0;
   margin: 0;
@@ -188,5 +194,47 @@ header .split .right .formBox p {
   border-bottom: 1px solid #B1B1B1;
   padding: 0;
   margin: 0;
+}
+
+.dualSplit {
+  padding: 0;
+  margin: 0;
+}
+
+.dualSplit .split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dualSplit .split .side {
+  width: 50%;
+}
+
+.dualSplit .split .side .bigImage {
+  width: 100%;
+}
+
+.dualSplit .split .side h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.dualSplit .split .side p {
+  padding: 0;
+  margin: 0;
+}
+
+.dualSplit .split .side .sponsor {
+  border: 1px solid #B1B1B1;
+  border-radius: 10px;
+  background: #F5F5F5;
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  margin: 25px 0;
 }
 /*# sourceMappingURL=style.css.map */
