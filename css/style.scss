@@ -103,13 +103,15 @@ body, p, a, h1, h2, h3, h4 {
         }
         .packages {
             display: flex;
+            flex-direction: column;
             justify-content: space-between;
             padding-top: 50px;
             margin: 0;
             .prize {
-                width: 32%;
+                width: 100%;
                 border-radius: 10px;
                 border: 1px solid $gray;
+                margin: 10px 0;
                 .heading {
                     color: white;
                     font-size: 26px;
@@ -177,9 +179,11 @@ body, p, a, h1, h2, h3, h4 {
         }
         .split {
             display: flex;
+            flex-direction:  column;
             align-items: center;
+            margin: 50px 0;
             .side {
-                width: 50%;
+                width: 100%;
                 .bigImage {
                     width: 100%;
                 }

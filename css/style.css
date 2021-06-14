@@ -112,6 +112,10 @@ body, p, a, h1, h2, h3, h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -119,9 +123,10 @@ body, p, a, h1, h2, h3, h4 {
     margin: 0;
   }
   .prizePackages .packages .prize {
-    width: 32%;
+    width: 100%;
     border-radius: 10px;
     border: 1px solid #B1B1B1;
+    margin: 10px 0;
   }
   .prizePackages .packages .prize .heading {
     color: white;
@@ -194,12 +199,17 @@ body, p, a, h1, h2, h3, h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 50px 0;
   }
   .dualSplit .split .side {
-    width: 50%;
+    width: 100%;
   }
   .dualSplit .split .side .bigImage {
     width: 100%;
