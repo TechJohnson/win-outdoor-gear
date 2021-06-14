@@ -32,6 +32,39 @@ body, p, a, h1, h2, h3, h4 {
   .desktop-view {
     display: none;
   }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+    margin: 0;
+  }
+  nav .navBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  nav .navBar img {
+    padding-bottom: 25px;
+  }
+  nav .navBar a {
+    color: #292929;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 20px;
+  }
   header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -316,6 +349,32 @@ body, p, a, h1, h2, h3, h4 {
   .mobile-view {
     display: none;
   }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+    margin: 0;
+  }
+  nav .navBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  nav .navBar a {
+    color: #292929;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0;
+    margin-left: 40px;
+  }
   header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -582,34 +641,5 @@ body, p, a, h1, h2, h3, h4 {
     padding: 15px 0;
     margin: 0;
   }
-}
-
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 20px 0;
-  margin: 0;
-}
-
-nav .navBar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-nav .navBar a {
-  color: #292929;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  padding: 0;
-  margin-left: 40px;
 }
 /*# sourceMappingURL=style.css.map */
