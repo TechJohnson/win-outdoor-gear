@@ -29,6 +29,9 @@ body, p, a, h1, h2, h3, h4 {
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 20px 0;
   margin: 0;
 }
@@ -55,6 +58,9 @@ nav .navBar a {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url("../img/showcase.png");
   background-size: cover;
   background-position: bottom;
@@ -125,6 +131,9 @@ header .split .right .formBox .fine {
 }
 
 .prizePackages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 50px 0 100px 0;
   margin: 0;
 }
@@ -207,6 +216,9 @@ header .split .right .formBox .fine {
 }
 
 .dualSplit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0;
   margin: 0;
 }
@@ -280,6 +292,10 @@ header .split .right .formBox .fine {
   margin-right: 20px;
 }
 
+.dualSplit .split .side .sponsor .left img {
+  width: 100%;
+}
+
 .dualSplit .split .side .sponsor .bold {
   margin-bottom: 5px;
 }
@@ -294,6 +310,9 @@ header .split .right .formBox .fine {
 }
 
 .rulesRegulations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: #F4F4F4;
   padding: 50px 0;
   margin: 0;
