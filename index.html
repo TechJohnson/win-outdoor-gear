@@ -8,201 +8,410 @@
 </head>
 <body>
 
-    <nav>
-        <div class="container">
-            <div class="navBar">
-                <img src="img/logo.svg" alt="">
-                <div class="links">
-                    <a href="#rules">Rules & Regulations</a>
-                    <a href="#sponsors">Sponsors</a>
-                    <a href="#prizes">Prizes</a>
+    <!-- Mobile View -->
+    <div class="mobile-view">
+
+        <nav>
+            <div class="container">
+                <div class="navBar">
+                    <img src="img/logo.svg" alt="">
+                    <div class="links">
+                        <a href="#rules">Rules & Regulations</a>
+                        <a href="#sponsors">Sponsors</a>
+                        <a href="#prizes">Prizes</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-
-    <header>
-        <div class="container">
-            <div class="split">
-                <div class="left">
-                    <h1>Planning your next great outdoor adventure?</h1>
-                    <p>Enter here to win one of 3 outdoor gear packages so you can go into the wild in style. Free to enter, no purchase necessary to win!</p>
-                    <img src="img/showcase-prize.svg" alt="">
+        </nav>
+    
+        <header>
+            <div class="container">
+                <div class="split">
+                    <div class="left">
+                        <h1>Planning your next great outdoor adventure?</h1>
+                        <p>Enter here to win one of 3 outdoor gear packages so you can go into the wild in style. Free to enter, no purchase necessary to win!</p>
+                        <img src="img/showcase-prize.svg" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="formBox">
+                            <h2>Want to win FREE outdoor gear?</h2>
+                            <p>Sign up here for your chance to win one of 3 awesome outdoor prize packages.</p>
+                            <form name="Outdoor Gear Submission (Mobile)" method="POST" data-netlify="true">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="tel" name="phone" placeholder="Phone" required>
+                                <input type="text" name="address" placeholder="Address" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                                <div class="legal">
+                                    <input type="checkbox" name="Over 18" id="over18"><label for="over18">Yes I am over the age of 18</label><br>
+                                    <input type="checkbox" name="resident" id="resident"><label for="resident">Yes I am a legal resident of the United States</label><br>
+                                    <input type="checkbox" name="phoneCall" id="phoneCall"><label for="phoneCall">Yes I agree to receive a phone call to validate my sweepstakes entry</label>
+                                </div>
+                                <button type="submit">Submit</button>
+                            </form>
+                            <p class="fine">Validation of entry is required to be eligible to win.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="right">
-                    <div class="formBox">
-                        <h2>Want to win FREE outdoor gear?</h2>
-                        <p>Sign up here for your chance to win one of 3 awesome outdoor prize packages.</p>
-                        <form name="Outdoor Gear Submission" method="POST" data-netlify="true">
-                            <input type="text" name="name" placeholder="Name" required>
-                            <input type="tel" name="phone" placeholder="Phone" required>
-                            <input type="text" name="address" placeholder="Address" required>
-                            <input type="email" name="email" placeholder="Email" required>
-                            <div class="legal">
-                                <input type="checkbox" name="Over 18" id="over18"><label for="over18">Yes I am over the age of 18</label><br>
-                                <input type="checkbox" name="resident" id="resident"><label for="resident">Yes I am a legal resident of the United States</label><br>
-                                <input type="checkbox" name="phoneCall" id="phoneCall"><label for="phoneCall">Yes I agree to receive a phone call to validate my sweepstakes entry</label>
+            </div>
+        </header>
+    
+        <section class="prizePackages" id="prizes">
+            <div class="container">
+                <h2>Prize Packages</h2>
+                <div class="packages">
+                    <div class="prize">
+                        <div class="heading bg-blue">
+                            <h3>1st Place</h3>
+                        </div>
+                        <div class="value">
+                            <p>River Tubing Package Valued at</p>
+                            <p class="price">$205.55</p>
+                        </div>
+                        <hr>
+                        <div class="includes">
+                            <div class="checks padding-0">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">4 Intex River Run 1 Person River Tubes ($127.16)</p>
                             </div>
-                            <button type="submit">Submit</button>
-                        </form>
-                        <p class="fine">Validation of entry is required to be eligible to win.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="prizePackages" id="prizes">
-        <div class="container">
-            <h2>Prize Packages</h2>
-            <div class="packages">
-                <div class="prize">
-                    <div class="heading bg-blue">
-                        <h3>1st Place</h3>
-                    </div>
-                    <div class="value">
-                        <p>River Tubing Package Valued at</p>
-                        <p class="price">$205.55</p>
-                    </div>
-                    <hr>
-                    <div class="includes">
-                        <div class="checks padding-0">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">4 Intex River Run 1 Person River Tubes ($127.16)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">Intex Mega Chill Inflatable 24 Can Cooler ($21.18)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">2 Gecko Brands Floatable Waterproof Phone Case w/ Audio Cord & Arm Band ($57.21)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="prize box-shadow">
-                    <div class="heading bg-green">
-                        <h3>Grand Prize</h3>
-                    </div>
-                    <div class="value">
-                        <p>Outdoor Adventure Package Valued at</p>
-                        <p class="price">$698.16</p>
-                    </div>
-                    <hr>
-                    <div class="includes">
-                        <div class="checks padding-0">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">Yeti Tundra 65 Cooler ($369.94)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">Alps Mountaineering Escape Camp Chair ($58.28)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">Apeman 4K 60FPS Waterproof Action Camera ($95.38)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">Coghlan's Cast Iron Double Camp Cooker ($23.90)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">O2 Cool Mist 'n Sip Water Bottle ($10.58)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">GCI Outdoor Slimfold Cook Station ($90.08)</p>
-                        </div>
-                        <div class="checks">
-                            <img src="img/check.svg" alt="">
-                            <p class="checkCopy">Sportsman's Warehouse Gift Card ($50)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="prize">
-                    <div class="heading bg-blue">
-                        <h3>2nd Place</h3>
-                    </div>
-                    <div class="value">
-                        <p>Gift Card Valued at</p>
-                        <p class="price">$50</p>
-                    </div>
-                    <hr>
-                    <div class="includes">
-                        <p><span>$50 Gift Card</span> to winner's choice of REI, Sportsman's Warehouse, Dick's Sporting Goods, or Backcountry.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="dualSplit" id="sponsors">
-        <div class="container">
-            <div class="split">
-                <div class="side">
-                    <img src="img/photo-1.png" alt="Activity Image" class="bigImage">
-                </div>
-                <div class="side">
-                    <h2>2021 Prize Packages Courtesy Of This Year's Sponsor:</h2>
-                    <p>Make your home a true outdoor adventure destination with a custom deck, gazebo, pergola, or outdoor living space from:</p>
-                    <div class="sponsor">
-                        <div class="left">
-                            <img src="img/integrity-logo.svg" alt="">
-                        </div>
-                        <div class="right">
-                            <p class="bold">Integrity Construction & Windows, Inc.</p>
-                            <a href="https://compareintegrity.com">www.compareintegrity.com</a>
-                            <div class="socialMedia">
-                                <a href="https://www.facebook.com/IntegrityConstructionAndWindows" rel="noopener noreferrer" target="_blank">
-                                    <img src="img/facebook.svg" alt="Facebook">
-                                </a>
-                                <a href="https://www.instagram.com/integrityconstructionwindows/" rel="noopener noreferrer" target="_blank">
-                                    <img src="img/instagram.svg" alt="Instagram">
-                                </a>
-                                <a href="https://twitter.com/IntegrityConWin" rel="noopener noreferrer" target="_blank">
-                                    <img src="img/twitter.svg" alt="Twitter">
-                                </a>
-                                <a href="https://www.linkedin.com/company/integrityinc" rel="noopener noreferrer" target="_blank">
-                                    <img src="img/linkedin.svg" alt="LinkedIn">
-                                </a>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Intex Mega Chill Inflatable 24 Can Cooler ($21.18)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">2 Gecko Brands Floatable Waterproof Phone Case w/ Audio Cord & Arm Band ($57.21)</p>
                             </div>
                         </div>
                     </div>
-                    <p>Our sponsors make this sweepstakes possible. No purchase is necessary to win. See sweepstakes rules and regulations below.</p>
+                    <div class="prize box-shadow">
+                        <div class="heading bg-green">
+                            <h3>Grand Prize</h3>
+                        </div>
+                        <div class="value">
+                            <p>Outdoor Adventure Package Valued at</p>
+                            <p class="price">$698.16</p>
+                        </div>
+                        <hr>
+                        <div class="includes">
+                            <div class="checks padding-0">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Yeti Tundra 65 Cooler ($369.94)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Alps Mountaineering Escape Camp Chair ($58.28)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Apeman 4K 60FPS Waterproof Action Camera ($95.38)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Coghlan's Cast Iron Double Camp Cooker ($23.90)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">O2 Cool Mist 'n Sip Water Bottle ($10.58)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">GCI Outdoor Slimfold Cook Station ($90.08)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Sportsman's Warehouse Gift Card ($50)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize">
+                        <div class="heading bg-blue">
+                            <h3>2nd Place</h3>
+                        </div>
+                        <div class="value">
+                            <p>Gift Card Valued at</p>
+                            <p class="price">$50</p>
+                        </div>
+                        <hr>
+                        <div class="includes">
+                            <p><span>$50 Gift Card</span> to winner's choice of REI, Sportsman's Warehouse, Dick's Sporting Goods, or Backcountry.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="split">
-                <div class="side">
-                    <h2>Outdoor Related Sponsors Needed!</h2>
-                    <p>We're looking for more outdoor gear to give away. If your business would like to sponsor an outdoor package, email your inquiry to winoutdoorgear@mail.com and someone will contact you with details on how to get your products, services, or vacation destinations in front of outdoor lovers.</p>
-                    <button>Contact Us</button>
+        </section>
+    
+        <section class="dualSplit" id="sponsors">
+            <div class="container">
+                <div class="split">
+                    <div class="side">
+                        <img src="img/photo-1.png" alt="Activity Image" class="bigImage">
+                    </div>
+                    <div class="side">
+                        <h2>2021 Prize Packages Courtesy Of This Year's Sponsor:</h2>
+                        <p>Make your home a true outdoor adventure destination with a custom deck, gazebo, pergola, or outdoor living space from:</p>
+                        <div class="sponsor">
+                            <div class="left">
+                                <img src="img/integrity-logo.svg" alt="">
+                            </div>
+                            <div class="right">
+                                <p class="bold">Integrity Construction & Windows, Inc.</p>
+                                <a href="https://compareintegrity.com">www.compareintegrity.com</a>
+                                <div class="socialMedia">
+                                    <a href="https://www.facebook.com/IntegrityConstructionAndWindows" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/facebook.svg" alt="Facebook">
+                                    </a>
+                                    <a href="https://www.instagram.com/integrityconstructionwindows/" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/instagram.svg" alt="Instagram">
+                                    </a>
+                                    <a href="https://twitter.com/IntegrityConWin" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/twitter.svg" alt="Twitter">
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/integrityinc" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/linkedin.svg" alt="LinkedIn">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Our sponsors make this sweepstakes possible. No purchase is necessary to win. See sweepstakes rules and regulations below.</p>
+                    </div>
                 </div>
-                <div class="side">
-                    <img src="img/photo-2.png" alt="Activity Image" class="bigImage">
+                <div class="split">
+                    <div class="side">
+                        <h2>Outdoor Related Sponsors Needed!</h2>
+                        <p>We're looking for more outdoor gear to give away. If your business would like to sponsor an outdoor package, email your inquiry to winoutdoorgear@mail.com and someone will contact you with details on how to get your products, services, or vacation destinations in front of outdoor lovers.</p>
+                        <button>Contact Us</button>
+                    </div>
+                    <div class="side">
+                        <img src="img/photo-2.png" alt="Activity Image" class="bigImage">
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="rulesRegulations" id="rules">
+            <div class="container">
+                <p>Sweepstakes Rules And Regulations:</p>
+                <ol>
+                    <li>Must be 18 to win.</li>
+                    <li>Must be a valid resident of the United States.</li>
+                    <li>Cannot be an employee or employee's family member of any sweepstakes sponsor.</li>
+                    <li>No purchase necessary.</li>
+                    <li>Sweepstakes prizes are drawn annually. Sweepstakes period is April 1st through March 31st.</li>
+                    <li>These prizes are subject to availability. In the case that a product is not available at the time of the drawing beyond the control of the sponsor or winoutdoorgear.com, a comparable prize at the same retail value will be substituted.</li>
+                    <li>Prizes are non-transferable. Sweepstakes winners will be contacted by phone only and will have 90 days to claim their prize. If prize is not claimed within 90 days after prize notification, prize package will be forfeited.</li>
+                    <li>List of sweepstakes winners and sweepstakes results can be requested by emailing us at winoutdoorgear@mail.com.</li>
+                    <li>Our sweepstakes prize packages are provided by our sponsors. Our sponsors will call you to validate your entry and confirm your shipping address should you win a prize package. Validation by phone with our sponsors is required and during that brief phone call they will tell you about the products and services they offer. No purchase is necessary but we ask that you do listen to our sponsor’s brief message so that we can keep giving away great gear! Once you validate the entry, you can opt out of sponsor phone calls at any time by emailing us.</li>
+                    <li>Winoutdoorgear.com will never sell your data but will provide it to prize package sponsors for purpose of calling you to validate the entry & provide you with a brief information statement regarding their products or services. Sweepstakes sponsors will also be giving away gift certificates or discount certificates for their products or services to up to 100 entrants weekly for those who are interested.</li>
+                </ol>
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <!-- Desktop -->
+    <div class="desktop-view">
+
+        <nav>
+            <div class="container">
+                <div class="navBar">
+                    <img src="img/logo.svg" alt="">
+                    <div class="links">
+                        <a href="#rules">Rules & Regulations</a>
+                        <a href="#sponsors">Sponsors</a>
+                        <a href="#prizes">Prizes</a>
+                    </div>
                 </div>
             </div>
+        </nav>
+    
+        <header>
+            <div class="container">
+                <div class="split">
+                    <div class="left">
+                        <h1>Planning your next great outdoor adventure?</h1>
+                        <p>Enter here to win one of 3 outdoor gear packages so you can go into the wild in style. Free to enter, no purchase necessary to win!</p>
+                        <img src="img/showcase-prize.svg" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="formBox">
+                            <h2>Want to win FREE outdoor gear?</h2>
+                            <p>Sign up here for your chance to win one of 3 awesome outdoor prize packages.</p>
+                            <form name="Outdoor Gear Submission (Desktop)" method="POST" data-netlify="true">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="tel" name="phone" placeholder="Phone" required>
+                                <input type="text" name="address" placeholder="Address" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                                <div class="legal">
+                                    <input type="checkbox" name="Over 18" id="over18"><label for="over18">Yes I am over the age of 18</label><br>
+                                    <input type="checkbox" name="resident" id="resident"><label for="resident">Yes I am a legal resident of the United States</label><br>
+                                    <input type="checkbox" name="phoneCall" id="phoneCall"><label for="phoneCall">Yes I agree to receive a phone call to validate my sweepstakes entry</label>
+                                </div>
+                                <button type="submit">Submit</button>
+                            </form>
+                            <p class="fine">Validation of entry is required to be eligible to win.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <section class="prizePackages" id="prizes">
+            <div class="container">
+                <h2>Prize Packages</h2>
+                <div class="packages">
+                    <div class="prize">
+                        <div class="heading bg-blue">
+                            <h3>1st Place</h3>
+                        </div>
+                        <div class="value">
+                            <p>River Tubing Package Valued at</p>
+                            <p class="price">$205.55</p>
+                        </div>
+                        <hr>
+                        <div class="includes">
+                            <div class="checks padding-0">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">4 Intex River Run 1 Person River Tubes ($127.16)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Intex Mega Chill Inflatable 24 Can Cooler ($21.18)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">2 Gecko Brands Floatable Waterproof Phone Case w/ Audio Cord & Arm Band ($57.21)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize box-shadow">
+                        <div class="heading bg-green">
+                            <h3>Grand Prize</h3>
+                        </div>
+                        <div class="value">
+                            <p>Outdoor Adventure Package Valued at</p>
+                            <p class="price">$698.16</p>
+                        </div>
+                        <hr>
+                        <div class="includes">
+                            <div class="checks padding-0">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Yeti Tundra 65 Cooler ($369.94)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Alps Mountaineering Escape Camp Chair ($58.28)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Apeman 4K 60FPS Waterproof Action Camera ($95.38)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Coghlan's Cast Iron Double Camp Cooker ($23.90)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">O2 Cool Mist 'n Sip Water Bottle ($10.58)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">GCI Outdoor Slimfold Cook Station ($90.08)</p>
+                            </div>
+                            <div class="checks">
+                                <img src="img/check.svg" alt="">
+                                <p class="checkCopy">Sportsman's Warehouse Gift Card ($50)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize">
+                        <div class="heading bg-blue">
+                            <h3>2nd Place</h3>
+                        </div>
+                        <div class="value">
+                            <p>Gift Card Valued at</p>
+                            <p class="price">$50</p>
+                        </div>
+                        <hr>
+                        <div class="includes">
+                            <p><span>$50 Gift Card</span> to winner's choice of REI, Sportsman's Warehouse, Dick's Sporting Goods, or Backcountry.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="dualSplit" id="sponsors">
+            <div class="container">
+                <div class="split">
+                    <div class="side">
+                        <img src="img/photo-1.png" alt="Activity Image" class="bigImage">
+                    </div>
+                    <div class="side">
+                        <h2>2021 Prize Packages Courtesy Of This Year's Sponsor:</h2>
+                        <p>Make your home a true outdoor adventure destination with a custom deck, gazebo, pergola, or outdoor living space from:</p>
+                        <div class="sponsor">
+                            <div class="left">
+                                <img src="img/integrity-logo.svg" alt="">
+                            </div>
+                            <div class="right">
+                                <p class="bold">Integrity Construction & Windows, Inc.</p>
+                                <a href="https://compareintegrity.com">www.compareintegrity.com</a>
+                                <div class="socialMedia">
+                                    <a href="https://www.facebook.com/IntegrityConstructionAndWindows" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/facebook.svg" alt="Facebook">
+                                    </a>
+                                    <a href="https://www.instagram.com/integrityconstructionwindows/" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/instagram.svg" alt="Instagram">
+                                    </a>
+                                    <a href="https://twitter.com/IntegrityConWin" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/twitter.svg" alt="Twitter">
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/integrityinc" rel="noopener noreferrer" target="_blank">
+                                        <img src="img/linkedin.svg" alt="LinkedIn">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Our sponsors make this sweepstakes possible. No purchase is necessary to win. See sweepstakes rules and regulations below.</p>
+                    </div>
+                </div>
+                <div class="split">
+                    <div class="side">
+                        <h2>Outdoor Related Sponsors Needed!</h2>
+                        <p>We're looking for more outdoor gear to give away. If your business would like to sponsor an outdoor package, email your inquiry to winoutdoorgear@mail.com and someone will contact you with details on how to get your products, services, or vacation destinations in front of outdoor lovers.</p>
+                        <button>Contact Us</button>
+                    </div>
+                    <div class="side">
+                        <img src="img/photo-2.png" alt="Activity Image" class="bigImage">
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="rulesRegulations" id="rules">
+            <div class="container">
+                <p>Sweepstakes Rules And Regulations:</p>
+                <ol>
+                    <li>Must be 18 to win.</li>
+                    <li>Must be a valid resident of the United States.</li>
+                    <li>Cannot be an employee or employee's family member of any sweepstakes sponsor.</li>
+                    <li>No purchase necessary.</li>
+                    <li>Sweepstakes prizes are drawn annually. Sweepstakes period is April 1st through March 31st.</li>
+                    <li>These prizes are subject to availability. In the case that a product is not available at the time of the drawing beyond the control of the sponsor or winoutdoorgear.com, a comparable prize at the same retail value will be substituted.</li>
+                    <li>Prizes are non-transferable. Sweepstakes winners will be contacted by phone only and will have 90 days to claim their prize. If prize is not claimed within 90 days after prize notification, prize package will be forfeited.</li>
+                    <li>List of sweepstakes winners and sweepstakes results can be requested by emailing us at winoutdoorgear@mail.com.</li>
+                    <li>Our sweepstakes prize packages are provided by our sponsors. Our sponsors will call you to validate your entry and confirm your shipping address should you win a prize package. Validation by phone with our sponsors is required and during that brief phone call they will tell you about the products and services they offer. No purchase is necessary but we ask that you do listen to our sponsor’s brief message so that we can keep giving away great gear! Once you validate the entry, you can opt out of sponsor phone calls at any time by emailing us.</li>
+                    <li>Winoutdoorgear.com will never sell your data but will provide it to prize package sponsors for purpose of calling you to validate the entry & provide you with a brief information statement regarding their products or services. Sweepstakes sponsors will also be giving away gift certificates or discount certificates for their products or services to up to 100 entrants weekly for those who are interested.</li>
+                </ol>
+            </div>
+        </section>
+        
+    </div>
 
-        </div>
-    </section>
-
-    <section class="rulesRegulations" id="rules">
-        <div class="container">
-            <p>Sweepstakes Rules And Regulations:</p>
-            <ol>
-                <li>Must be 18 to win.</li>
-                <li>Must be a valid resident of the United States.</li>
-                <li>Cannot be an employee or employee's family member of any sweepstakes sponsor.</li>
-                <li>No purchase necessary.</li>
-                <li>Sweepstakes prizes are drawn annually. Sweepstakes period is April 1st through March 31st.</li>
-                <li>These prizes are subject to availability. In the case that a product is not available at the time of the drawing beyond the control of the sponsor or winoutdoorgear.com, a comparable prize at the same retail value will be substituted.</li>
-                <li>Prizes are non-transferable. Sweepstakes winners will be contacted by phone only and will have 90 days to claim their prize. If prize is not claimed within 90 days after prize notification, prize package will be forfeited.</li>
-                <li>List of sweepstakes winners and sweepstakes results can be requested by emailing us at winoutdoorgear@mail.com.</li>
-                <li>Our sweepstakes prize packages are provided by our sponsors. Our sponsors will call you to validate your entry and confirm your shipping address should you win a prize package. Validation by phone with our sponsors is required and during that brief phone call they will tell you about the products and services they offer. No purchase is necessary but we ask that you do listen to our sponsor’s brief message so that we can keep giving away great gear! Once you validate the entry, you can opt out of sponsor phone calls at any time by emailing us.</li>
-                <li>Winoutdoorgear.com will never sell your data but will provide it to prize package sponsors for purpose of calling you to validate the entry & provide you with a brief information statement regarding their products or services. Sweepstakes sponsors will also be giving away gift certificates or discount certificates for their products or services to up to 100 entrants weekly for those who are interested.</li>
-            </ol>
-        </div>
-    </section>
 
     
     

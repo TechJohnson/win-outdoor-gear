@@ -28,6 +28,552 @@ body, p, a, h1, h2, h3, h4 {
   border: none !important;
 }
 
+@media screen and (max-width: 750px) {
+  .desktop-view {
+    display: none;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: url("../img/showcase.png");
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    padding: 50px 0;
+    margin: 0;
+  }
+  header .split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .split .left {
+    max-width: 100%;
+  }
+  header .split .left h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+  header .split .left p {
+    font-size: 23px;
+    margin-bottom: 45px;
+  }
+  header .split .left img {
+    width: 100%;
+  }
+  header .split .right {
+    max-width: 100%;
+  }
+  header .split .right .formBox {
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    padding: 50px 30px;
+    margin: 0;
+  }
+  header .split .right .formBox h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  header .split .right .formBox p {
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+  header .split .right .formBox .fine {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .prizePackages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 0 100px 0;
+    margin: 0;
+  }
+  .prizePackages h2 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .prizePackages .packages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 50px;
+    margin: 0;
+  }
+  .prizePackages .packages .prize {
+    width: 32%;
+    border-radius: 10px;
+    border: 1px solid #B1B1B1;
+  }
+  .prizePackages .packages .prize .heading {
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px 10px 0 0;
+  }
+  .prizePackages .packages .prize .value {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+  }
+  .prizePackages .packages .prize .value p {
+    font-size: 16px;
+    color: #B1B1B1;
+    padding: 0;
+    margin: 0;
+  }
+  .prizePackages .packages .prize .value .price {
+    font-size: 40px;
+    font-weight: 700;
+    color: #292929;
+  }
+  .prizePackages .packages .prize .includes {
+    padding: 40px 20px 15px 20px;
+    margin: 0;
+  }
+  .prizePackages .packages .prize .includes span {
+    font-weight: 700;
+  }
+  .prizePackages .packages .prize .includes .checks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .prizePackages .packages .prize .includes .checkCopy {
+    margin-left: 10px;
+  }
+  .prizePackages .packages .prize hr {
+    border-bottom: 1px solid #B1B1B1;
+    padding: 0;
+    margin: 0;
+  }
+  .dualSplit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .dualSplit button {
+    background: #11BF1D;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  .dualSplit button:hover {
+    background: #0c8814;
+    -webkit-box-shadow: 0px 15px 25px rgba(17, 191, 29, 0.15);
+            box-shadow: 0px 15px 25px rgba(17, 191, 29, 0.15);
+  }
+  .dualSplit .split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .dualSplit .split .side {
+    width: 50%;
+  }
+  .dualSplit .split .side .bigImage {
+    width: 100%;
+  }
+  .dualSplit .split .side h2 {
+    padding-bottom: 25px;
+    margin: 0;
+  }
+  .dualSplit .split .side p {
+    padding: 0;
+    margin: 0;
+  }
+  .dualSplit .split .side .sponsor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid #B1B1B1;
+    border-radius: 10px;
+    background: #F5F5F5;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    margin: 25px 0;
+  }
+  .dualSplit .split .side .sponsor a {
+    text-decoration: none;
+    color: #292929;
+  }
+  .dualSplit .split .side .sponsor .left {
+    margin-right: 20px;
+  }
+  .dualSplit .split .side .sponsor .left img {
+    width: 100%;
+  }
+  .dualSplit .split .side .sponsor .bold {
+    margin-bottom: 5px;
+  }
+  .dualSplit .split .side .sponsor .socialMedia {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .dualSplit .split .side .sponsor .socialMedia a {
+    margin-right: 10px;
+  }
+  .rulesRegulations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #F4F4F4;
+    padding: 50px 0;
+    margin: 0;
+  }
+  .rulesRegulations p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .rulesRegulations ol {
+    font-size: 14px;
+  }
+  .rulesRegulations ol li {
+    padding: 3px 0;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+  form input {
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  form .legal {
+    padding: 10px 0 20px 0;
+  }
+  form .legal label {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  form button {
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #11BF1D;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 0;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .mobile-view {
+    display: none;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: url("../img/showcase.png");
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    padding: 50px 0;
+    margin: 0;
+  }
+  header .split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .split .left {
+    max-width: 50%;
+    padding-right: 30px;
+  }
+  header .split .left h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+  header .split .left p {
+    font-size: 23px;
+    margin-bottom: 45px;
+  }
+  header .split .left img {
+    width: 100%;
+  }
+  header .split .right {
+    max-width: 50%;
+    padding-left: 30px;
+  }
+  header .split .right .formBox {
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    padding: 50px 30px;
+    margin: 0;
+  }
+  header .split .right .formBox h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  header .split .right .formBox p {
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+  header .split .right .formBox .fine {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .prizePackages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 0 100px 0;
+    margin: 0;
+  }
+  .prizePackages h2 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .prizePackages .packages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 50px;
+    margin: 0;
+  }
+  .prizePackages .packages .prize {
+    width: 32%;
+    border-radius: 10px;
+    border: 1px solid #B1B1B1;
+  }
+  .prizePackages .packages .prize .heading {
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px 10px 0 0;
+  }
+  .prizePackages .packages .prize .value {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+  }
+  .prizePackages .packages .prize .value p {
+    font-size: 16px;
+    color: #B1B1B1;
+    padding: 0;
+    margin: 0;
+  }
+  .prizePackages .packages .prize .value .price {
+    font-size: 40px;
+    font-weight: 700;
+    color: #292929;
+  }
+  .prizePackages .packages .prize .includes {
+    padding: 40px 20px 15px 20px;
+    margin: 0;
+  }
+  .prizePackages .packages .prize .includes span {
+    font-weight: 700;
+  }
+  .prizePackages .packages .prize .includes .checks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .prizePackages .packages .prize .includes .checkCopy {
+    margin-left: 10px;
+  }
+  .prizePackages .packages .prize hr {
+    border-bottom: 1px solid #B1B1B1;
+    padding: 0;
+    margin: 0;
+  }
+  .dualSplit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .dualSplit button {
+    background: #11BF1D;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  .dualSplit button:hover {
+    background: #0c8814;
+    -webkit-box-shadow: 0px 15px 25px rgba(17, 191, 29, 0.15);
+            box-shadow: 0px 15px 25px rgba(17, 191, 29, 0.15);
+  }
+  .dualSplit .split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .dualSplit .split .side {
+    width: 50%;
+  }
+  .dualSplit .split .side .bigImage {
+    width: 100%;
+  }
+  .dualSplit .split .side h2 {
+    padding-bottom: 25px;
+    margin: 0;
+  }
+  .dualSplit .split .side p {
+    padding: 0;
+    margin: 0;
+  }
+  .dualSplit .split .side .sponsor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid #B1B1B1;
+    border-radius: 10px;
+    background: #F5F5F5;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    margin: 25px 0;
+  }
+  .dualSplit .split .side .sponsor a {
+    text-decoration: none;
+    color: #292929;
+  }
+  .dualSplit .split .side .sponsor .left {
+    margin-right: 20px;
+  }
+  .dualSplit .split .side .sponsor .left img {
+    width: 100%;
+  }
+  .dualSplit .split .side .sponsor .bold {
+    margin-bottom: 5px;
+  }
+  .dualSplit .split .side .sponsor .socialMedia {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .dualSplit .split .side .sponsor .socialMedia a {
+    margin-right: 10px;
+  }
+  .rulesRegulations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #F4F4F4;
+    padding: 50px 0;
+    margin: 0;
+  }
+  .rulesRegulations p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .rulesRegulations ol {
+    font-size: 14px;
+  }
+  .rulesRegulations ol li {
+    padding: 3px 0;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+  form input {
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  form .legal {
+    padding: 10px 0 20px 0;
+  }
+  form .legal label {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  form button {
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #11BF1D;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 0;
+    margin: 0;
+  }
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,319 +601,5 @@ nav .navBar a {
   font-size: 1rem;
   padding: 0;
   margin-left: 40px;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: url("../img/showcase.png");
-  background-size: cover;
-  background-position: bottom;
-  color: white;
-  padding: 50px 0;
-  margin: 0;
-}
-
-header .split {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-header .split .left {
-  max-width: 50%;
-  padding-right: 30px;
-}
-
-header .split .left h1 {
-  font-size: 38px;
-  margin-bottom: 30px;
-}
-
-header .split .left p {
-  font-size: 23px;
-  margin-bottom: 45px;
-}
-
-header .split .left img {
-  width: 100%;
-}
-
-header .split .right {
-  max-width: 50%;
-  padding-left: 30px;
-}
-
-header .split .right .formBox {
-  background: rgba(0, 0, 0, 0.55);
-  border-radius: 10px;
-  padding: 50px 30px;
-  margin: 0;
-}
-
-header .split .right .formBox h2 {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-header .split .right .formBox p {
-  text-align: center;
-  font-size: 1.125rem;
-  line-height: 1.8;
-}
-
-header .split .right .formBox .fine {
-  font-size: 12px;
-  padding: 0;
-  margin: 0;
-}
-
-.prizePackages {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 50px 0 100px 0;
-  margin: 0;
-}
-
-.prizePackages h2 {
-  font-size: 26px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.prizePackages .packages {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 50px;
-  margin: 0;
-}
-
-.prizePackages .packages .prize {
-  width: 32%;
-  border-radius: 10px;
-  border: 1px solid #B1B1B1;
-}
-
-.prizePackages .packages .prize .heading {
-  color: white;
-  font-size: 26px;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 30px 0;
-  border-radius: 10px 10px 0 0;
-}
-
-.prizePackages .packages .prize .value {
-  text-align: center;
-  padding: 30px 0;
-  margin: 0;
-}
-
-.prizePackages .packages .prize .value p {
-  font-size: 16px;
-  color: #B1B1B1;
-  padding: 0;
-  margin: 0;
-}
-
-.prizePackages .packages .prize .value .price {
-  font-size: 40px;
-  font-weight: 700;
-  color: #292929;
-}
-
-.prizePackages .packages .prize .includes {
-  padding: 40px 20px 15px 20px;
-  margin: 0;
-}
-
-.prizePackages .packages .prize .includes span {
-  font-weight: 700;
-}
-
-.prizePackages .packages .prize .includes .checks {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 25px;
-}
-
-.prizePackages .packages .prize .includes .checkCopy {
-  margin-left: 10px;
-}
-
-.prizePackages .packages .prize hr {
-  border-bottom: 1px solid #B1B1B1;
-  padding: 0;
-  margin: 0;
-}
-
-.dualSplit {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-
-.dualSplit button {
-  background: #11BF1D;
-  color: white;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  padding: 15px 35px;
-  margin-top: 25px;
-  cursor: pointer;
-}
-
-.dualSplit button:hover {
-  background: #0c8814;
-  -webkit-box-shadow: 0px 15px 25px rgba(17, 191, 29, 0.15);
-          box-shadow: 0px 15px 25px rgba(17, 191, 29, 0.15);
-}
-
-.dualSplit .split {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.dualSplit .split .side {
-  width: 50%;
-}
-
-.dualSplit .split .side .bigImage {
-  width: 100%;
-}
-
-.dualSplit .split .side h2 {
-  padding-bottom: 25px;
-  margin: 0;
-}
-
-.dualSplit .split .side p {
-  padding: 0;
-  margin: 0;
-}
-
-.dualSplit .split .side .sponsor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 1px solid #B1B1B1;
-  border-radius: 10px;
-  background: #F5F5F5;
-  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-  padding: 20px;
-  margin: 25px 0;
-}
-
-.dualSplit .split .side .sponsor a {
-  text-decoration: none;
-  color: #292929;
-}
-
-.dualSplit .split .side .sponsor .left {
-  margin-right: 20px;
-}
-
-.dualSplit .split .side .sponsor .left img {
-  width: 100%;
-}
-
-.dualSplit .split .side .sponsor .bold {
-  margin-bottom: 5px;
-}
-
-.dualSplit .split .side .sponsor .socialMedia {
-  padding: 0;
-  margin-top: 20px;
-}
-
-.dualSplit .split .side .sponsor .socialMedia a {
-  margin-right: 10px;
-}
-
-.rulesRegulations {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #F4F4F4;
-  padding: 50px 0;
-  margin: 0;
-}
-
-.rulesRegulations p {
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.rulesRegulations ol {
-  font-size: 14px;
-}
-
-.rulesRegulations ol li {
-  padding: 3px 0;
-}
-
-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  padding: 0;
-  margin-top: 20px;
-}
-
-form input {
-  border-radius: 3px;
-  border: none;
-  padding: 10px;
-  margin: 5px 0;
-}
-
-form .legal {
-  padding: 10px 0 20px 0;
-}
-
-form .legal label {
-  font-size: 12px;
-  padding-left: 10px;
-}
-
-form button {
-  color: white;
-  font-weight: 900;
-  text-transform: uppercase;
-  background: #11BF1D;
-  border: none;
-  border-radius: 3px;
-  padding: 15px 0;
-  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
